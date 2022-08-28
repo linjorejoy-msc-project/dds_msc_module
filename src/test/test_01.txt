@@ -1,0 +1,58 @@
+NAME
+    DDSDomain
+
+CLASSES
+    builtins.object
+        DDSDomain
+
+    class DDSDomain(builtins.object)
+     |  DDSDomain(topics, address_family=None, socket_kind=None, hostName='', port=1234, field_participant='field') -> None
+     |
+     |  Methods defined here:
+     |
+     |  __init__(self, topics, address_family=None, socket_kind=None, hostName='', port=1234, field_participant='field') -> None
+     |      _summary_
+     |
+     |      Args:
+     |          topics (_type_): _description_
+     |          address_family (_type_, optional): _description_. Defaults to None.
+     |          socket_kind (_type_, optional): _description_. Defaults to None.
+     |          hostName (str, optional): _description_. Defaults to "".
+     |          port (int, optional): _description_. Defaults to 1234.
+     |          field_participant (str, optional): _description_. Defaults to "field".
+     |
+     |  format_msg_with_header(self, msg: str, header_size: int = 5)
+     |      # Helper Functions
+     |
+     |  handle_participant(self, participant_socket: socket.socket, participant_address)
+     |
+     |  instantiate_dds(self)
+     |
+     |  log_initial_setup(self)
+     |
+     |  main(self)
+     |
+     |  recv_msg(self, participant_socket: socket.socket) -> str
+     |
+     |  request_analysis_start(self)
+     |
+     |  save_data_of_participant(self, participant_socket: socket.socket, participant_address, config_str: str)
+     |
+     |  send_constants(self, participant_obj: <module 'objects.ParticipantObject' from 'C:\\Users\\Linjo\\OneDrive - Loughborough University\\Major Project\\Code\\major_project\\dds_pip_module\\src\\objects\\ParticipantObject.py'>)
+     |
+     |  send_info_to_subscribers(self, info: str, from_participant: objects.ParticipantObject.ParticipantObject)
+     |
+     |  send_topic_rules(self, participant_obj: objects.ParticipantObject.ParticipantObject)
+     |
+     |  set_constants(self, fields_participant_obj: <module 'objects.ParticipantObject' from 'C:\\Users\\Linjo\\OneDrive - Loughborough University\\Major Project\\Code\\major_project\\dds_pip_module\\src\\objects\\ParticipantObject.py'>)
+     |
+     |  set_topics(self)
+     |
+     |      dictionary for instance variables (if defined)
+     |
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+DATA
+    List = typing.List
+        A generic version of list.

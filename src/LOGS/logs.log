@@ -1,0 +1,13 @@
+INFO       2022-08-21 14:03:56,767: Server is starting...
+INFO       2022-08-21 14:03:56,767: {'name': 'fuel_flow', 'type': 'receive', 'regex': '', 'parameters_present': ['currentMassFlowRate', 'currentOxidiserMass', 'currentFuelMass', 'currentRocketTotalMass']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'thrust', 'type': 'receive', 'regex': '', 'parameters_present': ['currentThrust']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'drag', 'type': 'receive', 'regex': '', 'parameters_present': ['drag']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'motion', 'type': 'receive', 'regex': '', 'parameters_present': ['netThrust', 'currentAcceleration', 'currentVelocityDelta', 'currentVelocity', 'currentAltitudeDelta', 'currentAltitude', 'requiredThrustChange']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'field', 'type': 'receive', 'regex': '', 'parameters_present': ['currentTimestep', 'currentTime', 'totalTimestepsRun', 'versions']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'atmosphere', 'type': 'receive', 'regex': '', 'parameters_present': ['pressure', 'temperature', 'density']} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'field_update', 'type': 'receive', 'regex': '', 'parameters_present': []} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'field_update_realtime', 'type': 'update', 'regex': '', 'parameters_present': []} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'motion_update_realtime', 'type': 'update', 'regex': '', 'parameters_present': []} conveted to object
+INFO       2022-08-21 14:03:56,767: {'name': 'fuel_flow_update_realtime', 'type': 'update', 'regex': '', 'parameters_present': []} conveted to object
+INFO       2022-08-21 14:03:56,767: start_server_listening while loop started
+INFO       2022-08-21 14:04:04,869: Found ('127.0.0.1', 64604): <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1234), raddr=('127.0.0.1', 64604)>
